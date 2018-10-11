@@ -1,0 +1,66 @@
+* {
+  font-family: "Avenir";
+
+  /* position: relative; */
+}
+
+html, body {
+  width: 100vw;
+  /* height: 100%; */
+  position: relative;
+
+}
+
+.App {
+  height: 80vh;
+  width: 90%;
+  position: absolute;
+  text-align: center;
+
+    text-align: center;
+
+  margin: 0px 12px;
+
+}
+
+#page-wrapper {
+  /* border: #346EFF 2px solid; */
+  border: #FFD57A 2px solid;
+  height: 90%;
+  width:96%;
+  display: inline-flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  vertical-align: center;
+  position: relative;
+}
+
+.day {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+  /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
+  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+}
+
+.night {
+    border: #DBE6F1 solid 2px !important;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+}
+
+button.switch {
+  width: 80px;
+  position: relative;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white; 
+  border-radius: 6px;
+  text-align: center;
+  margin: 50px;
+  font-family: "Haboro Sans"
+
+}
